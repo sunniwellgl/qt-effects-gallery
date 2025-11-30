@@ -8,10 +8,15 @@
 
 <body>
 
-<h1>Qt Effects Gallery</h1>
-<p class="subtitle">收集各种 Qt/QML 渲染效果示例，点击可跳转到 GitHub 源码</p>
+<h1 class="title">Qt Effects Gallery</h1>
+<p class="subtitle">Qt/QML 效果集合 · 点击图片查看大图 · 点击按钮查看源码</p>
 
-<div id="gallery" class="grid"></div>
+<div id="gallery" class="masonry"></div>
+
+<!-- Lightbox 大图查看 -->
+<div id="lightbox" class="lightbox hidden">
+    <img id="lightbox-img" src="">
+</div>
 
 <script src="scripts.js"></script>
 

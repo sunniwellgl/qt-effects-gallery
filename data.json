@@ -1,9 +1,9 @@
 [
   {
-    "name": "毛玻璃效果（iOS 风格）",
-    "img": "img/blur_glass.png",
+    "name": "模糊阴影效果",
+    "img": "img/blur_shadow.png",
     "url": "https://github.com/lingao/qt-effects-gallery/tree/main/blur_glass",
-    "desc": "使用 ShaderEffect + FBO 实现的动态毛玻璃背景"
+    "desc": "使用 ShaderEffectSource + FastBlur 实现的模糊阴影效果"
   },
   {
     "name": "路径动画 PathView",

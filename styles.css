@@ -1,0 +1,111 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f7f8fa;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+/* 标题 */
+.title {
+    text-align: center;
+    font-size: 38px;
+    margin: 0;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+/* --- Masonry 瀑布流布局 --- */
+.masonry {
+    column-count: 3;
+    column-gap: 24px;
+    padding: 0 20px;
+}
+
+@media (max-width: 900px) {
+    .masonry { column-count: 2; }
+}
+
+@media (max-width: 600px) {
+    .masonry { column-count: 1; }
+}
+
+.card {
+    background: white;
+    display: inline-block;
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transition: transform .20s ease, box-shadow .20s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* 图片 */
+.card img {
+    width: 100%;
+    display: block;
+    cursor: zoom-in;
+}
+
+/* 内容 */
+.card-content {
+    padding: 16px 18px;
+}
+
+.card-content h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.card-content p {
+    margin: 0 0 10px;
+    color: #666;
+}
+
+/* 按钮 */
+.btn {
+    display: inline-block;
+    padding: 9px 14px;
+    background: #007aff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #005adf;
+}
+
+/* ----- Lightbox 大图查看 ----- */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+.hidden {
+    display: none;
+}
