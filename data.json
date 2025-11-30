@@ -1,0 +1,20 @@
+[
+  {
+    "name": "毛玻璃效果（iOS 风格）",
+    "img": "img/blur_glass.png",
+    "url": "https://github.com/lingao/qt-effects-gallery/tree/main/blur_glass",
+    "desc": "使用 ShaderEffect + FBO 实现的动态毛玻璃背景"
+  },
+  {
+    "name": "路径动画 PathView",
+    "img": "img/path_animation.gif",
+    "url": "https://github.com/lingao/qt-effects-gallery/tree/main/path_animation",
+    "desc": "展示 PathView + 动画曲线效果"
+  },
+  {
+    "name": "FBO 高斯模糊",
+    "img": "img/fbo_blur.png",
+    "url": "https://github.com/lingao/qt-effects-gallery/tree/main/fbo_blur",
+    "desc": "OpenGL FBO + 多 pass 模糊效果"
+  }
+]
