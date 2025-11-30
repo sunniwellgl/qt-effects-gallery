@@ -1,3 +1,1 @@
-Git is a version control system
-Git is free software
-I love Git
+展示使用QML实现的效果
