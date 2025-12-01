@@ -2,19 +2,7 @@
   {
     "name": "模糊阴影效果",
     "img": "img/blur_shadow.png",
-    "url": "https://github.com/lingao/qt-effects-gallery/tree/main/blur_glass",
+    "url": "https://github.com/sunniwellgl/qt-effects-gallery/tree/master/src/blur_shadow",
     "desc": "使用 ShaderEffectSource + FastBlur 实现的模糊阴影效果"
-  },
-  {
-    "name": "路径动画 PathView",
-    "img": "img/path_animation.gif",
-    "url": "https://github.com/lingao/qt-effects-gallery/tree/main/path_animation",
-    "desc": "展示 PathView + 动画曲线效果"
-  },
-  {
-    "name": "FBO 高斯模糊",
-    "img": "img/fbo_blur.png",
-    "url": "https://github.com/lingao/qt-effects-gallery/tree/main/fbo_blur",
-    "desc": "OpenGL FBO + 多 pass 模糊效果"
   }
 ]
