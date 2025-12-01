@@ -9,8 +9,12 @@ Qt Effects Gallery 是一个在线展示平台，用于展示使用 Qt/QML 技�
 
 ## 🚀 快速开始
 
-### 本地运行
+### 在线预览
 1. 在浏览器中访问 `https://sunniwellgl.github.io/qt-effects-gallery/`
+
+### 源码运行环境
+- **Qt 版本**: Qt 6.7.3
+- **操作系统**: Linux(Ubuntu 20.04)
 
 ## 🎭 展示效果
 
@@ -19,7 +23,7 @@ Qt Effects Gallery 是一个在线展示平台，用于展示使用 Qt/QML 技�
 ### 模糊阴影效果
 - **技术**: ShaderEffectSource + FastBlur
 - **说明**: 实现现代化的模糊阴影视觉效果
-- **源码**: [blur_glass](https://github.com/lingao/qt-effects-gallery/tree/main/blur_glass)
+- **源码**: [blur_shadow](https://github.com/sunniwellgl/qt-effects-gallery/tree/master/src/blur_shadow)
 
 ## 🤝 贡献指南
 
@@ -39,7 +43,7 @@ Qt Effects Gallery 是一个在线展示平台，用于展示使用 Qt/QML 技�
 {
   "name": "效果名称",
   "img": "img/预览图片.png",
-  "url": "https://github.com/用户名/qt-effects-gallery/tree/main/效果目录",
+  "url": "https://github.com/sunniwellgl/qt-effects-gallery/tree/master/src/效果目录",
   "desc": "效果描述和技术说明"
 }
 ```
