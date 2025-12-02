@@ -4,5 +4,11 @@
     "img": "img/blur_shadow.png",
     "url": "https://github.com/sunniwellgl/qt-effects-gallery/tree/master/src/blur_shadow",
     "desc": "使用 ShaderEffectSource + FastBlur 实现的模糊阴影效果"
+  },
+  {
+    "name": "文本渐变效果",
+    "img": "img/text_gradient.png",
+    "url": "https://github.com/sunniwellgl/qt-effects-gallery/tree/master/src/text_gradient",
+    "desc": "使用 ShaderEffect + Item Layers实现文本渐变效果"
   }
 ]
