@@ -25,6 +25,7 @@ body {
     column-count: 3;
     column-gap: 24px;
     padding: 0 20px;
+    break-inside: avoid; /* 防止卡片在列之间被分割 */
 }
 
 @media (max-width: 900px) {
