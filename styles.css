@@ -25,23 +25,15 @@ body {
     column-count: 3;
     column-gap: 24px;
     padding: 0 20px;
-    break-inside: avoid; /* 防止卡片在列之间被分割 */
 }
 
-.masonry .card {
-    break-inside: avoid; /* 确保每个卡片完整显示在一列中 */
-    page-break-inside: avoid; /* 旧版浏览器支持 */
-    display: block; /* 改为block显示，更适合瀑布流 */
-    width: 100%; /* 保持100%宽度 */
-}
-
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     .masonry { column-count: 2; }
 }
 
 @media (max-width: 600px) {
     .masonry { column-count: 1; }
-}
+} */
 
 .card {
     background: white;
