@@ -27,13 +27,13 @@ body {
     padding: 0 20px;
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
     .masonry { column-count: 2; }
 }
 
 @media (max-width: 600px) {
     .masonry { column-count: 1; }
-} */
+}
 
 .card {
     background: white;
@@ -56,7 +56,7 @@ body {
     width: 100%;
     display: block;
     cursor: zoom-in;
-    height: 540px; /* 设置固定高度 */
+    /* height: 540px; 设置固定高度 */
 }
 
 /* 内容 */
