@@ -23,16 +23,28 @@ body {
 /* --- Masonry 瀑布流布局 --- */
 .masonry {
     column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
     column-gap: 24px;
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
     padding: 0 20px;
 }
 
 @media (max-width: 900px) {
-    .masonry { column-count: 2; }
+    .masonry { 
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+    }
 }
 
 @media (max-width: 600px) {
-    .masonry { column-count: 1; }
+    .masonry { 
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
 }
 
 .card {
